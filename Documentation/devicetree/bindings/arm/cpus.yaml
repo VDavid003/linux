@@ -87,8 +87,10 @@ properties:
     enum:
       - apple,avalanche
       - apple,blizzard
+      - apple,cyclone
       - apple,icestorm
       - apple,firestorm
+      - apple,typhoon
       - arm,arm710t
       - arm,arm720t
       - arm,arm740t
