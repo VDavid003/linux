@@ -411,6 +411,7 @@
 		#power-domain-cells = <0>;
 		#reset-cells = <0>;
 		label = "usb2host0_ohci";
+		apple,always-on; /* idk */
 	};
 
 	ps_usb2host0: power-controller@20170 {
@@ -419,6 +420,7 @@
 		#power-domain-cells = <0>;
 		#reset-cells = <0>;
 		label = "usb2host0";
+		apple,always-on; /* idk */
 	};
 
 	ps_usb2host1_ohci: power-controller@20178 {
@@ -427,6 +429,7 @@
 		#power-domain-cells = <0>;
 		#reset-cells = <0>;
 		label = "usb2host1_ohci";
+		apple,always-on; /* idk */
 	};
 
 	ps_usb2host1: power-controller@20180 {
@@ -435,6 +438,7 @@
 		#power-domain-cells = <0>;
 		#reset-cells = <0>;
 		label = "usb2host1";
+		apple,always-on; /* idk */
 	};
 
 	ps_usbotg: power-controller@20188 {
